@@ -1,0 +1,27 @@
+.blog-container {
+  height: 400px;
+  margin: 7px 5px;
+  padding: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  min-width: 200px;
+}
+.blog-container a {
+  opacity: 0.7;
+  color: palevioletred;
+}
+.blog-container a:visited {
+  opacity: 0.6;
+}
+.blog-container img {
+  height: 65%;
+  width: 100%;
+  min-width: 200px;
+}
+.blog-container img:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+.blog-container small {
+  display: block;
+}/*# sourceMappingURL=blog.css.map */

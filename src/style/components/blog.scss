@@ -1,0 +1,41 @@
+.blog-container {
+   height: 500px;
+   margin: 7px 5px;
+   padding: 10px;
+   border-radius: 10px;
+   overflow: hidden;
+   min-width: 200px;
+   font-family: $font4;
+   transition: .3s ease;
+
+   &:hover img {
+      transform: scale(1.05);
+   }
+
+   a {
+      opacity: .7;
+      color: palevioletred;
+   }
+
+   a:visited {
+      opacity: .6;
+   }
+
+   img {
+      height: 65%;
+      width: 100%;
+      min-width: 200px;
+      transition: .3s ease;
+      object-fit: cover;
+
+      &:hover {
+         opacity: 0.9;
+         cursor: pointer;
+      }
+   }
+
+   small {
+      display: block;
+   }
+
+}

@@ -1,0 +1,26 @@
+.blogs-container {
+   width: 90%;
+   display: grid;
+   grid-template-columns: repeat(4, 26%);
+   justify-content: center;
+   margin: 0 auto;
+
+   @media screen and (max-width:1200px) {
+      grid-template-columns: repeat(3, 33%);
+
+   }
+
+   @media screen and (max-width:1000px) {
+      grid-template-columns: repeat(2, 50%);
+
+   }
+
+   @media screen and (max-width:750px) {
+      grid-template-columns: 1fr;
+
+   }
+
+   p {
+      text-align: center;
+   }
+}

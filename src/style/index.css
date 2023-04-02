@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;700&family=Fira+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&family=Inter:wght@100;200;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Fira Sans", sans-serif;
+}
+
+.nav-items {
+  height: 50px;
+  background: #051e46;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-items a {
+  margin: 0 30px;
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+  transition: 0.3s ease;
+  padding: 5px;
+  border-radius: 50px;
+}
+.nav-items a:hover {
+  background: rgba(236, 214, 214, 0.377);
+  border-radius: 50px;
+}
+.nav-items .nav-active {
+  color: rgba(252, 232, 232, 0.233);
+  font-weight: bold;
+  color: rgb(235, 109, 63);
+}
+
+.blog-container {
+  height: 500px;
+  margin: 7px 5px;
+  padding: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  min-width: 200px;
+  font-family: "Poppins", sans-serif;
+  transition: 0.3s ease;
+}
+.blog-container:hover img {
+  transform: scale(1.05);
+}
+.blog-container a {
+  opacity: 0.7;
+  color: palevioletred;
+}
+.blog-container a:visited {
+  opacity: 0.6;
+}
+.blog-container img {
+  height: 65%;
+  width: 100%;
+  min-width: 200px;
+  transition: 0.3s ease;
+}
+.blog-container img:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+.blog-container small {
+  display: block;
+}
+
+.blogs-container {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(4, 26%);
+  justify-content: center;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1200px) {
+  .blogs-container {
+    grid-template-columns: repeat(3, 33%);
+  }
+}
+@media screen and (max-width: 1000px) {
+  .blogs-container {
+    grid-template-columns: repeat(2, 50%);
+  }
+}
+@media screen and (max-width: 750px) {
+  .blogs-container {
+    grid-template-columns: 1fr;
+  }
+}
+.blogs-container p {
+  text-align: center;
+}/*# sourceMappingURL=index.css.map */

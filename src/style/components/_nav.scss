@@ -1,0 +1,30 @@
+.nav-items {
+   height: 50px;
+   background: $color1;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   a {
+      margin: 0 30px;
+      text-decoration: none;
+      color: $color2;
+      font-size: 1.2rem;
+      font-family: $font4;
+      transition: .3s ease;
+      padding: 5px;
+      border-radius: 50px;
+
+      &:hover {
+         background: rgba(236, 214, 214, 0.377);
+         border-radius: 50px;
+      }
+   }
+
+   .nav-active {
+      color: rgba(252, 232, 232, 0.233);
+      font-weight: bold;
+      color: rgb(235, 109, 63);
+
+   }
+}
