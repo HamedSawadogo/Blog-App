@@ -20,6 +20,20 @@
 
    }
 
+   @media screen and (max-width:470px) {
+
+      .blog-container {
+         margin: 0 auto;
+         width: 100%;
+         font-size: 0.8rem;
+      }
+
+      .blog-container img {
+         width: 100%;
+      }
+
+   }
+
    p {
       text-align: center;
    }

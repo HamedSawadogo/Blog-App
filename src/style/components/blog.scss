@@ -4,7 +4,6 @@
    padding: 10px;
    border-radius: 10px;
    overflow: hidden;
-   min-width: 200px;
    font-family: $font4;
    transition: .3s ease;
 
@@ -24,7 +23,6 @@
    img {
       height: 65%;
       width: 100%;
-      min-width: 200px;
       transition: .3s ease;
       object-fit: cover;
 
