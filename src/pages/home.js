@@ -11,7 +11,7 @@ const Home = () => {
   useEffect(() => {
     axios
       .get(
-        "https://newsapi.org/v2/everything?q=tesla&from=2023-03-03&sortBy=publishedAt&apiKey=21e0bcf1daf84264a9f3487f640070af"
+        "https://newsapi.org/v2/everything?q=tesla&from=2023-03-04&sortBy=publishedAt&apiKey=21e0bcf1daf84264a9f3487f640070af"
       )
       .then((res) => {
         dispatch(getBlogsData(res.data.articles));
